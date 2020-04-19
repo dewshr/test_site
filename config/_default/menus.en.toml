@@ -1,0 +1,54 @@
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "about"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "python"
+  name = "Python"
+  url = "python"
+  weight = 3
+
+[[main]]
+  identifier = "r"
+  name = "R"
+  url = "r"
+  weight = 4
+
+
+#[[main]]
+#  identifier = "posts"
+#  name = "Posts"
+#  url = "posts"
+#  weight = 5
+
+[[main]]
+  identifier = "stats"
+  name = "Stats"
+  url = "stats"
+  weight = 5
+
+[[main]]
+  identifier = "papers"
+  name = "Papers"
+  url = "papers"
+  weight = 6
+
+[[main]]
+  identifier = "other_stuffs"
+  name = "Other_stuffs"
+  url = "other_stuffs"
+  weight = 7
+
+#[[main]]
+#  identifier = "publication"
+#  name = "Pub"
+#  url = "publication"
+#  weight = 7
