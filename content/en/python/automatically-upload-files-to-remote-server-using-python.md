@@ -10,12 +10,12 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 tags:
-- python
 - paramiko
 series:
 -
 categories:
 - syntax
+- python
 image: images/feature3/code-file.png
 ---
 

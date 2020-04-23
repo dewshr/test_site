@@ -18,6 +18,9 @@ rssLimit = 100
 enableGitInfo = false
 googleAnalytics = ""
 
+# disqus comments
+disqusShortname = 'https-dewshr-github-io'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
