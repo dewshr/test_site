@@ -29,15 +29,15 @@ import random
 
 
 def generate_nucleotide(probability):
-    if sum(p) ==1:
+    if sum(probability) ==1:
         return random.choices(['A','C','G','T'], weights=probability)
-    elif sum(p) < 1:
-        diff = 1 - sum(p)
+    elif sum(probability) < 1:
+        diff = 1 - sum(probability)
         index = probability.index(max(probability))
         probability[index] = probability[index] + diff
         return random.choices(['A','C','G','T'], weights=probability)
     else:
-        diff = 1 - sum(p)
+        diff = 1 - sum(probability)
         index = probability.index(max(probability))
         probability[index] = probability[index] - diff
         return random.choices(['A','C','G','T'], weights=probability)

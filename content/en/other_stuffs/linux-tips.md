@@ -28,7 +28,7 @@ Find common lines between two files
 Getting all the rows with 2 columns having same values
 `awk '($4==$5)' input_file.txt > output_file.txt`
 
-Filtering rows based on certain certain column value
+Filtering rows based on certain column value
 `awk '($4 < 5)' input_file.txt > output_file.txt`
 
 Getting mean value for specific column
